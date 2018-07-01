@@ -33,7 +33,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 
 APP_TITLE := eXhop - eShop Title installer
 APP_AUTHOR := XorTroll
-APP_VERSION := Beta 1
+APP_VERSION := Beta 1.1
 
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
