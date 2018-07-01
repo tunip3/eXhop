@@ -5,3 +5,5 @@ Nintendo Switch title downloader (like FreeShop), based on Rei's BogInstaller
 
 Simply put the title ID of the title you want to download on "sdmc:/switch/eXhop.txt", and enjoy!
 Only the first line is read, one id.
+
+based of xortrolls original eXhop
