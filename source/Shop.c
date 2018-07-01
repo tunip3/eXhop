@@ -45,6 +45,7 @@ int main()
     nsInitialize();
     fsInitialize();
     consoleInit(NULL);
+	printf("%s%s%s", CONSOLE_RED, "Please be aware by using this program you risk a ban", CONSOLE_RESET);
     printf("\n");
     printf("[eXhop:Info] Reading title file (sdmc:/switch/eXhop.txt)\n");
     char *strid = readfile("sdmc:/switch/eXhop.txt");
@@ -62,6 +63,7 @@ int main()
             Result res = nsBeginInstallApplication(id, 0, FsStorageId_SdCard);
             if(R_SUCCEEDED(res))
             {
+				printf("%s%s%s", CONSOLE_GREEN, "complete \n", CONSOLE_RESET);
                 printf("[eXhop:Info] Title download started, check it in Home Menu!\n");
             }
             else error("Failure starting title download.");
